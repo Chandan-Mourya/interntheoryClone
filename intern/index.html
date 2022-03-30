@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #pageContent{
+            height: 200px;
+            width: 100%;
+        }
+        button{
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>hiiiiii</h1>
+
+    <button class="btn">Click me</button>
+    <br>
+    <br>
+
+    <button class="btn1">Submit</button>
+    <div class="container">
+
+
+
+
+        <iframe id="pageContent"  src="#"></iframe>
+      
+       
+      </div>
+  
+</body>
+</html>
+<script>
+    document.querySelector(".btn").addEventListener("click", SortByNameFun);
+  function SortByNameFun(){
+    document.getElementById("pageContent").src="https://www.youtube.com/embed/tgbNymZ7vqY"
+  }
+
+
+
+  document.querySelector(".btn1").addEventListener("click", SortFun);
+  function SortFun(){
+    document.getElementById("pageContent").src="carrierAdvice.html"
+  }
+   
+// function car()
+// {
+
+//     console.log("hiiiiii")
+// //      alert(document.getElementById("pageContent"));
+// // document.getElementById("pageContent").src='cars_requestMenuContent.html';
+// }
+</script>

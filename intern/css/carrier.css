@@ -1,0 +1,148 @@
+body{
+    height: 50%;
+}
+
+.top-container{
+    border: 1px solid red;
+    margin-bottom: 10px;
+    
+}
+
+.c1{
+height:auto;
+display: flex;
+gap: 20px;
+padding-top:-30px;
+padding-left: 50px;
+}
+.c2{
+    height:auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+}
+.c3{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span {
+  content: "\2103";
+}
+.facebook{
+    border: 1px solid blue;
+    width:30%;
+}
+.heading{
+    text-align: center;
+    border: 1px solid black;
+}
+.news{
+    border: 1px solid teal;
+    width: 55%;
+    height: 50px;
+}
+.add{
+    border: 1px solid green;
+    width: 40%;
+    height: auto;
+    padding-left: 80px;
+   
+}
+/* .bottom{
+    border: 1px solid pink;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+} */
+#mgmt{
+    cursor: pointer;
+}
+#carrierwomen{
+    cursor: pointer;
+}
+
+
+#main1{
+    border: 3px  solid blue;
+    display: flex;
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+    height: auto;
+   
+}
+
+#news1{
+    border: 1px  solid red;
+    display: flex;
+    gap: 40px;
+}
+
+.news{
+    /* border: 1px solid pink; */
+    width: 55%;
+    
+}
+.container{
+    border: 1px solid black;
+    width: 100%;
+    height: 220px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ 
+}
+.containerhalf{
+   
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-bottom: 25px;
+ 
+}
+
+
+
+
+.box1{
+    border: 1px solid black;
+    height:90%;
+    width: 80%;
+    margin-right: -20px;
+}
+.box2{
+    border: 3px solid black;
+    height: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+}
+
+
+.big-img{
+    height:100%;
+    width: 300px;
+    margin-right: -20px;
+
+}
+.small-img{
+    height:100px ;
+    width: 100px;
+}
+.heading-name{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.date{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
